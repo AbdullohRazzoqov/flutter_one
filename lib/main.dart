@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_one/addition/addition.dart';
 import 'package:flutter_one/screen/home_page.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.yellow),
       //widgetlarning asosiy rangini sariqga o'zgartiradi
-      home: const HomePage(),
+      home: const Addition(),
     );
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_one/addition/addition.dart';
+import 'package:flutter_one/floating_action_button/example.dart';
 
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.yellow),
       //widgetlarning asosiy rangini sariqga o'zgartiradi
-      home: const Addition(),
+      home: const Example(),
     );
   }
 }

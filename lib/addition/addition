@@ -1,1 +1,30 @@
 flutterda bizga ko'rinib turgan barcha narsa widget.
+
+
+
+Flutter Projectdagi Folderlar haqda:
+
+.dart_tool -> linux va mac tizimlarda yashirin folder,
+
+.idea  -> flutter projectimiz haqda malumotlarni saqlaydi
+
+android -> android folder ichida android qismi uchun native codlar yozishimiz mumkin bo'lgan qismi,
+va android configurationni to'g'irlashimiz mumkin bo'lgan qism
+
+ios  -> ios uchun ajratilgan mahsus Folder
+
+lib  -> bizning deyarli barcha ishimiz libning ichida bo'ladi
+
+test -> bir appni chiqarishdan oldin uning o'zimiz test qilib chiqishimiz mumkin
+
+web  -> flutterni webga compile qilishimiz 
+
+
+
+Flutterda modelar:
+
+1. debug mode    -> projectga o'zgartirishlar kiritib umuman olganda ishchi holadida debug mode bo'ladi.
+
+2. profile mode  -> debug modeda dastur qotib ishlaydi haqiqiy qurulmadagi ishlash tezligini olish uchun profile modeda ishlatamiz
+
+3. release mode  -> to'g'ridan to'g'ri qurulmada ishlaydi

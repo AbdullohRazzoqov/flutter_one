@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_one/floating_action_button/example.dart';
+import 'package:flutter_one/floating_action_button/example_two.dart';
 
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.yellow),
       //widgetlarning asosiy rangini sariqga o'zgartiradi
-      home: const Example(),
+      home: const ExampleTwo(),
     );
   }
 }

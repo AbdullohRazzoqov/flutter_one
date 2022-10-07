@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_one/floating_action_button/example_two.dart';
-
+import 'package:flutter_one/column_and_row/example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.yellow),
       //widgetlarning asosiy rangini sariqga o'zgartiradi
-      home: const ExampleTwo(),
+      home: const ExapleColumn(),
     );
   }
 }
+   //!
+   //?
+   // TODO:
+   //* commint
